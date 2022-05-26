@@ -66,9 +66,15 @@ public class Main {
 
         //Задание 4 Все нечетные числа сделать четными для целочисленного массива
 
+        for (int i = 0; i <= numbers.length-1; i++) {
+            if (numbers[i] % 2 != 0) {
+                System.out.print(numbers[i] + 1 + ", ");
+            } else if (i == numbers.length - 1)
+                System.out.print(numbers[i] + 1);
+            if (numbers[i] % 2 == 0)
+                System.out.print(numbers[i] + ", ");
 
-
-
+            }
 
     }
 }
