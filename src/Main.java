@@ -36,6 +36,38 @@ public class Main {
             } else
                 System.out.print(jobYears[i] + ", ");
         }
+        System.out.println();
+
+        //Задание 3 Распечатать массивы в обратной последовательности
+
+        for (int i = numbers.length-1; i >= 0; i--) {
+            if (i == 0) {
+                System.out.print(numbers[i]);
+            } else
+                System.out.print(numbers[i] + ", ");
+        }
+        System.out.println();
+
+        for (double i = numbers1.length - 1; i >= 0; i--) {
+            if (i == 0) {
+                System.out.print(numbers1[(int) i]);
+            } else
+                System.out.print(numbers1[(int) i] + ", ");
+        }
+        System.out.println();
+
+        for (int i = jobYears.length - 1; i >= 0; i--) {
+            if (i == 0) {
+                System.out.print(jobYears[i]);
+            } else
+                System.out.print(jobYears[i] + ", ");
+        }
+        System.out.println();
+
+        //Задание 4 Все нечетные числа сделать четными для целочисленного массива
+
+
+
 
 
     }
