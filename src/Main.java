@@ -72,16 +72,16 @@ public class Main {
 
         for (int i = 0; i <= numbers.length-1; i++) {
             if (numbers[i] % 2 != 0) {
-                System.out.print(numbers[i] + 1 + ", ");
-                if (numbers[i] == numbers[i]++) {
-                    if (i == numbers.length - 1) {
-                        System.out.print(numbers[i]);
-                    } else {
-                        System.out.print(numbers[i] + ", ");
-                    }
-                }
+                numbers[i]++;
             }
+            if (i == numbers.length - 1) {
+                System.out.print(numbers[i]);
+            } else {
+                System.out.print(numbers[i] + ", ");
+            }
+
         }
 
-    }
+            }
+
 }
